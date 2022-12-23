@@ -16,7 +16,7 @@
 <template>
     <h1>{{ title }}</h1>
     <p>Количество посещений: {{ countVisiting }}</p>
-    <router-link to="/page2">Перейти на вторую страницу</router-link>
+    <RouterLink to="/page2">Перейти на вторую страницу</RouterLink>
 </template>
 
 <style scoped>
