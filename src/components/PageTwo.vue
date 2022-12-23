@@ -4,7 +4,6 @@
 
     const storeTitle = useTitleStore()
     const title = ref(storeTitle.title)
-    
 
     watch(title, (newTitle) => {
         storeTitle.change(newTitle)
