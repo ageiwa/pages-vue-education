@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import PageOne from '../components/PageOne.vue'
+import PageOne from '../components/PageOne/index.vue'
 import PageTwo from '../components/PageTwo/index.vue'
 import NotFound from '../components/NotFound404.vue'
 
