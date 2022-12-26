@@ -16,5 +16,4 @@
     <h1>Hello Page two</h1>
     <div @keyup="onInput" class="input-div" contenteditable="true">{{ title }}</div>
     <br>
-    <RouterLink to="/">Перейти на первую</RouterLink>
 </template>
