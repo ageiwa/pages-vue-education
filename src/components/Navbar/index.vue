@@ -1,7 +1,7 @@
 <template>
     <header class="header">
         <div class="container">
-            <img class="header__logo" src="./vue.svg" alt="">
+            <img class="header__logo" src="./vue.svg" alt="logo">
 
             <nav class="header__navbar">
                 <RouterLink class="navbar__link" to="/">Page #1</RouterLink>
