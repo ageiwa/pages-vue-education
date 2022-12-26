@@ -1,6 +1,6 @@
 <script setup>
     import { ref, onMounted } from 'vue'
-    import { useTitleStore } from '../stores/title';
+    import { useTitleStore } from '../stores/title'
     import { useCountVisit } from '../stores/countVisits'
 
     const title = useTitleStore().title
@@ -10,7 +10,7 @@
     onMounted(() => {
         visits.increment()
     })
-    
+
 </script>
 
 <template>
