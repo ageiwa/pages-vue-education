@@ -18,12 +18,3 @@
     <br>
     <RouterLink to="/">Перейти на первую</RouterLink>
 </template>
-
-<style scoped>
-    .input-div {
-        border: 1px solid #fff;
-        border-radius: 5px;
-        widows: 100%;
-        height: 20px;
-    }
-</style>
