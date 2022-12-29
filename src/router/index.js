@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import PageOne from '../components/PageOne.vue'
-import PageTwo from '../components/PageTwo.vue'
-import NotFound from '../components/NotFound404.vue'
+import PageOne from '../components/PageOne/index.vue'
+import PageTwo from '../components/PageTwo/index.vue'
+import NotFound from '../components/404.vue'
 
 const router = createRouter({
     history: createWebHistory(),
